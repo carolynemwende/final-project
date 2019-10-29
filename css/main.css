@@ -2,6 +2,13 @@ body,html{
 	margin:0;
 	padding: 0;
 }
+/*overall*/
+.padding-15px{
+	padding: 0 15px;
+	box-sizing: border-box;
+}
+
+
 .navbar{
 	box-shadow: 0 0px 20px -3px gray;
 }
@@ -64,11 +71,9 @@ body,html{
 .intro-img{
 	width: 1000px;
 	padding-left: 100px;
-
 }
 
-
- h3{
+.intro-content h3{
  	overflow: hidden;
  	white-space: nowrap;
  	margin-bottom: 60px;
@@ -150,7 +155,7 @@ body,html{
 
 
 
-@media (max-width: 768px) {
+@media (max-width: 767px) {
 .navbar-nav .open .dropdown-menu > li > a {
     color: #d7e2e9;
   }
@@ -177,4 +182,161 @@ body,html{
 .mockup-intro-content{
 	width: 100%;
 }
+
+/*****reusable div width-1785px****/
+.width-1785px{
+	width: 100%;
+}
+.intro-content{
+	width:100%;
+}
+.intro-img{
+	width: 100%;
+	padding-left:0;
+}
+.intro-img img{
+	width: 100%;
+}
+.intro-content h4{
+    color: #a7a7a7;
+    font-size: 15px;
+    padding-top: 10px;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+}
+.intro-content h1{
+	font-size: 27px;
+    font-family: Montserrat,Helvetica,Arial,sans-serif;
+    -webkit-font-smoothing: antialiased;
+    font-weight: 700;
+    
+}
+.intro-content h3{
+ 	overflow: hidden;
+ 	white-space: nowrap;
+ 	margin-bottom: 60px;
+ 	font-size: 27px;
+ 	font-weight: 700;
+ 	border-right: 4px solid #000;
+ 	-webkit-font-smoothing: antialiased;
+ 	animation: type 4s steps(30)  infinite;
+ 	font-family: Montserrat,Helvetica,Arial,sans-serif;
+ }
+
+
+}
+
+
+@media (max-width: 770px) {
+.navbar-nav .open .dropdown-menu > li > a {
+    color: #d7e2e9;
+  }
+.navbar-nav .open .dropdown-menu > li > a:hover, .navbar-default .navbar-nav .open .dropdown-menu > li > a:focus {
+    color: #e5dbdb;
+ 
+  }
+.navbar-nav .open .dropdown-menu > .active > a, .navbar-default .navbar-nav .open .dropdown-menu > .active > a:hover, .navbar-default .navbar-nav .open .dropdown-menu > .active > a:focus {
+    color: #e5dbdb;
+    background-color: #009999;
+  }
+
+.navbar-toggler-icon{
+  	color: red;
+  }
+#logo{
+	display: none;
+}
+.navbar-toggler{
+	float: right;
+}
+
+/****styling mockup=intro-content*****/
+.mockup-intro-content{
+	width: 100%;
+}
+
+/*****reusable div width-1785px****/
+.width-1785px{
+	width: 100%;
+}
+.intro-content{
+	width:100%;
+}
+.intro-img{
+	width: 100%;
+	padding-left:0;
+}
+.intro-img img{
+	width: 100%;
+}
+.intro-content h4{
+    color: #a7a7a7;
+    font-size: 15px;
+    padding-top: 10px;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+}
+.intro-content h1{
+	font-size: 27px;
+    font-family: Montserrat,Helvetica,Arial,sans-serif;
+    -webkit-font-smoothing: antialiased;
+    font-weight: 700;
+    
+}
+.intro-content h3{
+ 	overflow: hidden;
+ 	white-space: nowrap;
+ 	margin-bottom: 60px;
+ 	font-size: 27px;
+ 	font-weight: 700;
+ 	border-right: 4px solid #000;
+ 	-webkit-font-smoothing: antialiased;
+ 	animation: type 4s steps(30)  infinite;
+ 	font-family: Montserrat,Helvetica,Arial,sans-serif;
+ }
+
+
+}
+
+@media (max-width: 1024px) {
+
+.width-1785px{
+	width: 100%;
+}
+.intro-content{
+	width:100%;
+}
+.intro-img{
+	width: 100%;
+	padding-left:0;
+}
+.intro-img img{
+	width: 100%;
+}
+.intro-content h4{
+    color: #a7a7a7;
+    font-size: 15px;
+    padding-top: 10px;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+}
+.intro-content h1{
+	font-size: 27px;
+    font-family: Montserrat,Helvetica,Arial,sans-serif;
+    -webkit-font-smoothing: antialiased;
+    font-weight: 700;
+    
+}
+.intro-content h3{
+ 	overflow: hidden;
+ 	white-space: nowrap;
+ 	margin-bottom: 60px;
+ 	font-size: 27px;
+ 	font-weight: 700;
+ 	border-right: 4px solid #000;
+ 	-webkit-font-smoothing: antialiased;
+ 	animation: type 4s steps(30)  infinite;
+ 	font-family: Montserrat,Helvetica,Arial,sans-serif;
+ }
+
 }
