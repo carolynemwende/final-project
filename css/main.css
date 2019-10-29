@@ -1,0 +1,180 @@
+body,html{
+	margin:0;
+	padding: 0;
+}
+.navbar{
+	box-shadow: 0 0px 20px -3px gray;
+}
+.navbar-brand:hover, .navbar-default .navbar-brand:focus {
+  color: #fff;
+}
+.navbar-nav  li  a {
+  color: #000;
+  font-size: 13px;
+  font-weight: 600;
+  padding-top: 5PX;
+}
+.navbar-nav input,.navbar-nav button {
+	padding-top: 15PX;
+}
+.navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
+ 
+  color: #e5dbdb;
+}
+
+#logo{
+	float: left;
+}
+.width-1785px{
+	width: 1785px;
+	margin: 0 auto;
+}
+
+/****styling mockup=intro-content*****/
+.mockup-intro-content{
+	width: 1600px;
+	margin-left: auto;
+	padding-top: 50px;
+	box-sizing: border-box;
+}
+.panel{
+	float: left;
+}
+.clear{
+	clear: both;
+}
+.intro-content{
+	width: 600px;
+}
+.intro-content h4{
+    color: #a7a7a7;
+    font-size: 1rem;
+    padding-top: 140px;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+}
+.intro-content h1{
+	font-size: 3.333rem;
+    font-family: Montserrat,Helvetica,Arial,sans-serif;
+    -webkit-font-smoothing: antialiased;
+    font-weight: 700;
+    
+}
+
+.intro-img{
+	width: 1000px;
+	padding-left: 100px;
+
+}
+
+
+ h3{
+ 	overflow: hidden;
+ 	white-space: nowrap;
+ 	margin-bottom: 60px;
+ 	font-size: 3.333rem;
+ 	font-weight: 700;
+ 	border-right: 4px solid #000;
+ 	-webkit-font-smoothing: antialiased;
+ 	animation: type 4s steps(30)  infinite;
+ 	font-family: Montserrat,Helvetica,Arial,sans-serif;
+ }
+@keyframes type {
+	0%{
+		width: 0;
+	}
+	100%{
+		width: 90%;
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 768px) {
+.navbar-nav .open .dropdown-menu > li > a {
+    color: #d7e2e9;
+  }
+.navbar-nav .open .dropdown-menu > li > a:hover, .navbar-default .navbar-nav .open .dropdown-menu > li > a:focus {
+    color: #e5dbdb;
+ 
+  }
+.navbar-nav .open .dropdown-menu > .active > a, .navbar-default .navbar-nav .open .dropdown-menu > .active > a:hover, .navbar-default .navbar-nav .open .dropdown-menu > .active > a:focus {
+    color: #e5dbdb;
+    background-color: #009999;
+  }
+
+.navbar-toggler-icon{
+  	color: red;
+  }
+#logo{
+	display: none;
+}
+.navbar-toggler{
+	float: right;
+}
+
+/****styling mockup=intro-content*****/
+.mockup-intro-content{
+	width: 100%;
+}
+}
